@@ -18,6 +18,11 @@ public class HomeController(ILogger<HomeController> logger,
         return View();
     }
 
+    public IActionResult DeploymentSlot()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
